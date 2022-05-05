@@ -1,0 +1,128 @@
+*{
+    background-color: #EFEBCE;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 100;
+}
+
+.Titulo{
+    position: absolute;
+    /* si no pones posicion absoluta o inherite nunca se va a poder correr el cuadro */
+    top: -20px; /*  se pone con - para que vaya al reves */
+    left: 40%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: #A3A380;
+    border-radius: 10px;
+    font-size: 40px;
+    font-weight: 600;
+  
+}
+
+.Titulo2 h2{
+    position: absolute;
+    background-color: #A3A380;
+    top: 40px; 
+    left: 45%;
+    
+}
+
+.post-body1 img{
+    width: 700px;
+    position: relative;
+    left: 25%;
+    top: 100px;
+    border-radius: 50px;
+    
+   
+   
+}
+.Lista1 {
+    position: relative;
+    border-color: black;
+    border-width: 3px;
+    border-style: solid;
+    top: 15px;
+    right: 700px;
+    display: inline-block;
+    background-color: #D6CE93;
+    border-radius: 10px;
+    
+}
+.Lista1 li{
+    
+    background-color: #D6CE93;
+    border-radius: 10px;
+    width: 280px;
+    /* width y height sirven para darle el tamaño a un cuadro */
+
+}
+
+.Lista2 li{
+    background-color: #D6CE93;
+    width: 80px;
+    border-radius: 10px;
+}
+.Lista2 {
+    /* el display solo se utiliza en la ul o ol en su defecto */
+    position: relative;
+    display: inline-block;
+    background-color: #D6CE93;
+    border-radius: 10px;
+    
+}
+.Footer1 h3{
+    background-color:#D6CE93 ;
+    width: 380px;
+    border-radius: 5px;
+    height: 30px;
+}
+
+
+.div1{
+    background-color: #D6CE93;
+    width: 200px;
+    border-radius: 10px;
+}
+.div1 a{
+    background-color: #D6CE93;
+    color: black;
+    text-decoration:underline;
+    transition: 0.5s;
+    /* text decoration puede modificar las decoraciones de dexto, como subrayado, tachado, negrita,etc */
+}
+.div1 a:hover{
+    background-color:#A3A380 ;
+    color: black;
+    text-decoration:underline;
+    transition: 0.5s;
+    
+    /* text decoration puede modificar las decoraciones de dexto, como subrayado, tachado, negrita,etc */
+}
+.h3-2nd{
+    background-color:#D6CE93 ;
+    width: 330px;
+    border-radius: 5px;
+    height: 25px;
+}
+
+.Mapa iframe{
+    width: 400px;
+    height: 250px;
+  
+}
+.header3 h2{
+    background-color: #D6CE93;
+    width: 220px;
+    border-radius: 10px;
+}
+.post-body2 img{
+    width: 500px;
+    height: 350px;
+    border-radius: 10px;
+    border-color: black;
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 10px;
+}
+.post-body2 p{
+    width: 600px;
+}
